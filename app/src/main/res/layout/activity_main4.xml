@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    tools:ignore="ExtraText"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/white"
+        card_view:cardCornerRadius="40dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="150dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/mli"
+
+                    />
+
+                <ImageButton
+                    android:layout_width="150dp"
+                    android:layout_height="68dp"
+                    android:layout_marginLeft="160dp"
+                    android:background="@drawable/cart" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:text="What kind of"
+                android:textSize="30sp"
+                android:textColorHighlight="2dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:text="Plant Do you want?"
+                android:textSize="30sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:background="@color/material_dynamic_neutral50"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Search"
+                    android:textColorHint="@color/white"
+                    android:textSize="30sp"
+                    android:drawableLeft="@drawable/zoom"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:text=" All    small      medium        Hanging"
+                android:textSize="25sp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/e1"
+                    android:layout_width="199dp"
+                    android:layout_height="239dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/pp1"
+                    android:contentDescription="@string/pothos"
+
+                    />
+
+                <ImageButton
+                    android:layout_width="208dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/pr2"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="208dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ppr3"
+                    android:layout_marginLeft="40dp"
+                    />
+
+                <ImageButton
+                    android:layout_width="208dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/pprs4"
+                    android:requiresFadingEdge="horizontal"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
